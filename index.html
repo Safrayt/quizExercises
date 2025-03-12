@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Квиз: Угадай упражнение</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="quiz-container">
+    <h1>
+      <span class="quiz-title-line">Квиз:</span>
+      <span class="quiz-title-line">Угадай упражнение</span>
+    </h1>
+    <div class="question-counter">Вопрос <span id="current-question">1</span> из <span id="total-questions">5</span></div>
+    <div class="question-image">
+      <img id="quiz-image" src="" alt="Упражнение">
+    </div>
+    <div class="options">
+      <button class="option" data-correct="false">Вариант 1</button>
+      <button class="option" data-correct="false">Вариант 2</button>
+      <button class="option" data-correct="false">Вариант 3</button>
+    </div>
+    <div class="result" id="result"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
